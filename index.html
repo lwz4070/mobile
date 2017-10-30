@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>Document</title>
+</head>
+<style>
+    html,body{font-family: "微软雅黑";padding: 0;margin: 0;}
+    .ygt{display: flex;flex-flow: row;width: 100%;height: 5.6rem;border-bottom: 1px solid #e4e4e4;}
+    .ygt1{
+        text-align: center;        
+        flex: 1;
+        font-size: 1.2rem;
+        height: 100%;
+        position: relative;
+    }
+    .ygt a{display: block;flex: 1;height: 100%;line-height: 8rem;box-sizing: border-box;}
+    .c1{background: url(src/img/y-yjtj_no.png) no-repeat center;background-size: 2.4rem;background-position: center 0.8rem;}
+    .ygt i{display: block;position: absolute;width: 1px;height: 2.8rem;background: #e4e4e4;top: 1.3rem;right: 0;}
+    .c2{background: url(src/img/y-mycourse_no.png) no-repeat center;background-size: 2.4rem;background-position: center 0.8rem;}
+    .c3{background: url(src/img/y-xypj_no.png) no-repeat center;background-size: 2.4rem;background-position: center 0.8rem;}
+    .ygt1 .item1{color: #3fc371;background: url(src/img/y-yjtj.png) no-repeat center;background-size: 2.4rem;background-position: center 0.8rem;}
+    .ygt1 .item2{color: #3fc371;background: url(src/img/y-mycourse.png) no-repeat center;background-size: 2.4rem;background-position: center 0.8rem;}
+    .ygt1 .item3{color: #3fc371;background: url(src/img/y-xypj.png) no-repeat center;background-size: 2.4rem;background-position: center 0.8rem;}
+    a{text-decoration: none;color: #666;}
+    ul,li{list-style: none;margin: 0;padding: 0;}
+    .ygt-list li{height: 56px;width: 100%;}
+    .ygt-list a{height: 56px;line-height: 56px;font-size: 1.4rem;display: block;margin:0 4%;border-bottom: 1px solid #e4e4e4;padding: 0 4px;}
+    .gyt-list-left{float: left;color: #666;}
+    .gyt-list-right{float: right;background: url(src/img/gary-right.png) no-repeat right center;background-size: 8px;padding-right: 7%;color: #a8a8a8;}
+    .list-middle{border-top: 10px solid #efefef;border-bottom: 10px solid #efefef;}
+    .list-middle a{border: none;}
+    .choosedate{float: left;display: block;background: url(src/img/white-down.png) no-repeat,#3fc371;background-size: 14px; background-position: 48px 13px; color: white;height: 32px;line-height: 32px;padding-left: 14px; margin-top: 12px;border-radius: 3px;width: 62px;}
+    .gyt-top-right{float:right;color:#3fc371;font-weight: bold;}
+    .chtit{float: left;margin-left: 10px;}
+    .pinl{border-bottom: 1px solid #e4e4e4;overflow: hidden;font-size: 1.4rem;color: #666;margin: 0 4%;padding: 20px 4px;}
+    .pinl img{width: 1.4rem;display: block;float: left;margin-top: 2px;}
+    .pinl-left{float: left;}
+    .pinl-left span {float: left;}
+    .pinl-right{float: right; padding-right: 7%;background: url(src/img/gary-right.png) no-repeat right center;background-size: 8px;color: #a8a8a8;line-height: 48px;}
+    .soure{margin-left: 5px;}
+    .pinl-left-li{height: 24px;}
+</style>
+<body>
+    <div class="ygt">
+        <div class="ygt1"><a data-title="a" class="c1 item1" href="javascript:;">业绩统计</a><i></i></div>
+        <div class="ygt1"><a data-title="b" class="c2" href="javascript:;">我的课程</a><i></i></div>
+        <div class="ygt1"><a data-title="c" class="c3" href="javascript:;">学员列表</a></div>
+    </div>
+    <div class="ygt-list">
+        <ul>
+           <li><a href="javascript:;"><div class="gyt-list-left"><span class="choosedate">7月</span><div class="chtit">总业绩（元）</div></div><div class="gyt-top-right">3200</div></a></li>
+            <li><a href="javascript:;"><div class="gyt-list-left">开卡(元)</div><div class="gyt-list-right">1420</div></a></li>
+        </ul>
+    </div>
+    <div class="ygt-list">
+        <ul>
+            <li class="list-middle"><a href="javascript:;"><div class="gyt-list-left">总代课</div><div class="gyt-list-right">12节</div></a></li>
+        </ul>
+    </div>
+    <div class="ygt-list">
+        <ul>
+            <li><a href="javascript:;"><div class="gyt-list-left">学员评分</div></a></li>
+        </ul>
+    </div>
+    <div class="pinl">
+        <div class="pinl-left">
+            <div class="pinl-left-li"><span>专业评价：</span><span><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir_no.png" alt=""></span>&nbsp;&nbsp;<span class="soure">4.8</span></div>
+            <div class="pinl-left-li"><span>服务评价：</span><span><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir.png" alt=""><img src="src/img/start-cir_no.png" alt=""></span>&nbsp;&nbsp;<span class="soure">4.8</span></div>
+        </div>
+        <div class="pinl-right">详细</div>
+    </div>
+</body>
+<script src="src/js/lib/jquery-1.8.3.min.js"></script>
+<script>
+var sw = $(window).width();
+if(sw>414){
+sw = 414;
+}
+$("html").css("font-size",sw/1080*32.8125+"px");
+    $(".ygt a").click(function(){
+        $('.ygt1 a').removeClass('item1').removeClass('item2').removeClass('item3');
+        switch($(this).attr('data-title')){
+            case "a": $(this).addClass('item1'); break;
+            case "b": $(this).addClass('item2'); break;
+            case "c": $(this).addClass('item3'); break;
+        }
+    })
+</script>
+</html>
